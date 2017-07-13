@@ -21,7 +21,7 @@
       <div class="wrappert">
         <div class="greeting" style="font-family:serif;font-style:italic;">
           <div><h1 class="heya">Hello!</h1>
-            <div><p class="heya1">Welcome to my profile site.Bg</p>
+            <div><p class="heya1">Welcome to my profile site.</p>
             </div>
           </div>     
         <img src="http://www.jegedeinvestment.com/wp-content/uploads/2012/11/everythings-waiting-for-you.jpg" class="bg" />           
@@ -38,8 +38,8 @@
         <div class="aboutTxt">
           <h1 style="margin:30px auto;" class="h1Links">About Me</h1>
           <br/>
-          <p style="font-size:20px; color: #000;">My name is Krista, and I am currently learning web development via FreeCodeCamp, and Codecademy PRO. So far I have learned HTML and CSS, and have dabbled in JavaScript and JQuery. I still have a long way to go, but the journey is exciting!</p>
-          <p style="font-size:20px; color: #000;">My current goal is to get a position where I have the opportunity to learn from and work with experienced developers.</p>
+          <p style="font-size:20px; color: #000;">My name is Krista, and I am currenty learning web-development via tutorials online. I recently completed the Michael Hartl 'Learn Enough to be Dangerous' Git, Command Line, and Rails tutorials. I've also finished the HTML and CSS Codecademy courses, and am currently developing a profile while learning new Rails techniques every day!</p>
+          <p style="font-size:20px; color: #000;">My current goal is to get a position where I have the opportunity to work with and learn from experienced developers.</p>
         </div>
       </div>
     </div>
@@ -48,16 +48,36 @@
 
 
   <div id="%23portfoliolink"></div>
+
   <div class="portfolio">
     <div class="portfolioTxt">
-      <h1 style="margin:30px auto 75px;" class="h1Links" style="color:#F9D1F2; text-shadow: 1px 1px #441F13;">My Portfolio:</h1>
+
+      <h1 style="margin:30px auto 75px;color: #fff;" class="h1Links" style="color:#F9D1F2; text-shadow: 1px 1px #441F13;">My Portfolio:</h1>
+
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 col-md-4"><div class="portThumb"><img class="img-responsive center-block" src="http://i.imgur.com/N7sSRnq.jpg" alt="Vet Ranch Tribute Site"></div></div>
-          <div class="col-xs-6 col-md-4"><div class="portThumb"><p>Coming Soon</p></div></div>
-          <div class="col-xs-6 col-md-4"><div class="portThumb"><p>Coming Soon</p></div></div>
+
+          <div class="col-xs-6 col-md-4">
+            <div class="portThumb">
+              <%= link_to image_tag( 'Sample-app-screenshot.png', class: 'img-thumbnail center-block'){}, "https://shielded-shore-64607.herokuapp.com/", target: :_blank %>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-4">
+            <div class="portThumb">
+              <%= link_to image_tag( 'Picvote-app-screenshot.png', class: 'img-thumbnail center-block'){}, "https://picvote-app.herokuapp.com/", target: :_blank %>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-md-4">
+            <div class="portThumb">
+              <p>Coming Soon!</p>
+            </div>
+          </div>
+
         </div>
       </div>
+
     </div>
   </div>
 

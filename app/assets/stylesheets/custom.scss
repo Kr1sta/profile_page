@@ -132,7 +132,7 @@ p.heya1{
 
 .portfolio{
   text-align: center;
-  background-color: #F8F0E3;
+  background-color: #8F7DA3;
   margin: 0px;
   position: relative; 
   display: inline-block;
@@ -142,24 +142,25 @@ p.heya1{
 
 
 .portThumb {
-  height: 300px;
+  height: 250px;
+  max-width: 350px;
   padding: 0px;
-  border: 2px solid #441F13;
-  background-color: #78645E;
-  color: #F8F0E3;
+  // border: 2px solid #441F13;
+  background-color: #666666;
+  color: #fff;
   font-size: 33px;
   font-family:serif;
   font-style: italic;
   margin-bottom: 17px;
-  max-width: 500px;
   overflow: hidden;
   border-radius: 2px;
 }
 
 .portThumb img {
-  min-height:300px;
+  min-height:250px;
+  object-fit: cover;
 }
 
 .portThumb p {
-  margin-top: 115px;
+  margin-top: 97px;
 }
