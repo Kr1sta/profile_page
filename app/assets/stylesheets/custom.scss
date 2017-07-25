@@ -1,9 +1,11 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
+/* mixins, variables, etc */
+$sea: #3FB7A8;
 
 body {
-  background-image: url('az_subtle_@2X.png');
+  background: image-url('brickwall.png');
 }
 
 .container {
@@ -12,14 +14,15 @@ body {
 }
 
 .name {
-  background-color: #b3e6ff;
-  height: 225px;
-  width: 80%;
+  background-color: $sea;
+  opacity: 0.5;
+  height: 250px;
+  width: 85%;
   color: #fff;
   text-align: center;
   margin: 0px auto;
   h1 {
-    padding-top: 50px;
+    padding-top: 75px;
     font-size: 50px;
     margin-bottom: 10px;
   }
