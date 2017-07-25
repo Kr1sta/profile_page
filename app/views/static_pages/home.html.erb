@@ -4,92 +4,20 @@
   <title>Krista's Portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
 </head>
+
 <body>
 
-  <div class="header">
-    <div class="hLinks">
-      <%= link_to "Back to Top", root_path(anchor: "#top") %>
-      <%= link_to "About Me", root_path(anchor: "#aboutme") %>
-      <%= link_to "Portfolio", root_path(anchor: "#portfolio") %>
-      <%= link_to "Contact Me", root_path(anchor: "#contact") %>
-    </div>
-  </div>
-  
-
-  <div id="%23top"></div>
-  <div class="jumbotron">
-    <div class="wrapper">
-      <div class="wrappert">
-        <div class="greeting">
-          <div><h1 class="heya">Hello!</h1>
-            <div><p class="heya1">Welcome to my profile site.</p>
-            </div>
-          </div>     
-        <img src="http://www.jegedeinvestment.com/wp-content/uploads/2012/11/everythings-waiting-for-you.jpg" class="bg" />           
-        </div>
-      </div>
-    </div>
-  </div>
-  
-
-  <div id="%23aboutme"></div>
-  <div class="aboutMe BgMe">
-    <div class="container">
-      <div class="aboutBox">
-        <div class="aboutTxt">
-          <h1 style="margin:30px auto;" class="h1Links">About Me</h1>
-          <br/>
-          <p style="font-size:20px; color: #000;">My name is Krista, and I am currenty learning web-development via tutorials online. I recently completed the Michael Hartl 'Learn Enough to be Dangerous' Git, Command Line, and Rails tutorials. I've also finished the HTML and CSS Codecademy courses, and am currently developing a profile while learning new Rails techniques every day!</p>
-          <p style="font-size:20px; color: #000;">My current goal is to get a position where I have the opportunity to work with and learn from experienced developers.</p>
-        </div>
-      </div>
-    </div>
-     
-  </div>
-
-
-  <div id="%23portfolio"></div>
-
-  <div class="portfolio">
-    <div class="portfolioTxt">
-      <div class="portHead">
-        <h1 class="h1Links">My Portfolio:</h1>
-      </div>
-      <div class="container">
-        <div class="row">
-
-          <div class="col-xs-6 col-md-4">
-            <div class="portThumb">
-              <%= link_to image_tag( 'Sample-app-screenshot.png', class: 'img-thumbnail center-block'){}, "https://shielded-shore-64607.herokuapp.com/", target: :_blank %>
-            </div>
-          </div>
-
-          <div class="col-xs-6 col-md-4">
-            <div class="portThumb">
-              <%= link_to image_tag( 'Picvote-app-screenshot.png', class: 'img-thumbnail center-block'){}, "https://picvote-app.herokuapp.com/", target: :_blank %>
-            </div>
-          </div>
-
-          <div class="col-xs-6 col-md-4">
-            <div class="portThumb">
-              <p>Coming Soon!</p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <br/>
-    <p style='font-size:40px;'>View my <%= link_to "Bitbucket", 'https://bitbucket.org/Kr1sta/', target: :_blank %></p>
+  <div class="container">
+    <div class="name">
+      <h1>Krista Laffrenier</h1>
+      <p>Web Delevoper.</p>
+      <ul>
+        <li><a href="https://bitbucket.org/Kr1sta/"><i class="fa fa-bitbucket" aria-hidden="true"></i></a></li>
+        <li><a href="https://github.com/Kr1sta"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
+        <li><a href="google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+      </ul>
     </div>
   </div>
 
-
-  <div id="%23contact"></div>
-  <div class="contact">
-    <div class="contactTxt">
-      <h1 class="h1Links">Contact Me</h1>
-    </div>
-  </div>
-  
 </body>
 </html>
