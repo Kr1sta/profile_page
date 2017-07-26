@@ -8,15 +8,21 @@
 <body>
 
   <div class="container">
+
     <div class="name">
       <h1>Krista Laffrenier</h1>
       <p>Web Delevoper.</p>
-      <ul>
-        <li><a href="https://bitbucket.org/Kr1sta/"><i class="fa fa-bitbucket" aria-hidden="true"></i></a></li>
-        <li><a href="https://github.com/Kr1sta"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li>
-        <li><a href="google.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-      </ul>
+        <%= link_to '<i class="fa fa-bitbucket" aria-hidden="true"></i>'.html_safe, "https://bitbucket.org/Kr1sta/", { style: "color:white", target: :_blank} %>
+        <%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, "https://github.com/Kr1sta", { style: "color:white;margin:10px", target: :_blank} %>
+        <%= link_to '<i class="fa fa-envelope" aria-hidden="true"></i>'.html_safe, "google.com", { style: "color:white", target: :_blank} %>
     </div>
+
+  <div class="content">
+    <div class="sample">
+      
+    </div>
+  </div>
+
   </div>
 
 </body>
