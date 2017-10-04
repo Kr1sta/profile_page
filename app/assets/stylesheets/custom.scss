@@ -3,15 +3,12 @@
 
 /* mixins, variables, etc */
 $sea: #3FB7A8;
-$storm: #279386;
-$dark-blue: #4A7987;
-$orange: #F85A5A;
-$plum: #900C3F;
-$raspberry: #8E4066;
-$pink: #CD5E94;
-$violet: #C070E8;
-$slate: #404040;
+$sea-opaque: #8CCEC6;
+$sea-dark: #69B3AB;
+$slate: #474747;
 
+$pink: #E88BBB;
+$pink-opaque: #EFA3CA;
 
 body {
   background: image-url('brickwall.png');
@@ -24,7 +21,7 @@ body {
 
 .name {
   background-color: $sea;
-  opacity: 0.5;
+  opacity: 0.55;
   height: 250px;
   width: 85%;
   color: #fff;
@@ -41,16 +38,45 @@ body {
   }
 }
 
-.content {
-  background-color: $slate;
-  opacity: 0.5;
-  height: 450px;
+.aboutMe {
+  min-height: 50px;
+  margin: 15px auto;
+  text-align: center;
+  opacity: 0.55;
+  background-color: $pink;
   width: 85%;
-  margin: 25px auto;
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+  p {
+    margin: 0px;
+    padding: 15px;
+  }
 }
 
+.content {
+  background-color: $sea-opaque;
+  opacity: 0.95;
+  width: 85%;
+  margin: 15px auto;
+  text-align: center;
+  overflow: auto;
+}
 
+.img-box {
+  width: 95%;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: $sea-dark;
+}
 
-
+.site-img {
+  width: 45%;
+  height: 100px;
+  margin: 5px auto;
+  object-fit: cover;
+  display: inline-block;
+}
 
 

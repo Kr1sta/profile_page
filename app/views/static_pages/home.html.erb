@@ -8,20 +8,44 @@
 <body>
 
   <div class="container">
-
+    
+    <!-- *** INTRODUCTION *** -->
     <div class="name">
       <h1>Krista Laffrenier</h1>
-      <p>Web Delevoper.</p>
-        <%= link_to '<i class="fa fa-bitbucket" aria-hidden="true"></i>'.html_safe, "https://bitbucket.org/Kr1sta/", { style: "color:white", target: :_blank} %>
-        <%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, "https://github.com/Kr1sta", { style: "color:white;margin:10px", target: :_blank} %>
-        <%= link_to '<i class="fa fa-envelope" aria-hidden="true"></i>'.html_safe, "google.com", { style: "color:white", target: :_blank} %>
+      <p>Web Delevoper</p>
+      <%= link_to '<i class="fa fa-bitbucket" aria-hidden="true"></i>'.html_safe, "https://bitbucket.org/Kr1sta/", { style: "color:white", target: :_blank} %>
+      <%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, "https://github.com/Kr1sta", { style: "color:white;margin:10px", target: :_blank} %>
+      <%= link_to '<i class="fa fa-envelope" aria-hidden="true"></i>'.html_safe, "google.com", { style: "color:white", target: :_blank} %>
     </div>
 
-  <div class="content">
-    <div class="sample">
-      
+    <!-- *** ABOUT ME *** -->
+    <div class="aboutMe">
+      <p>I am a junior rails developer that learns quickly, listens well, and that knows how to search for answers if I get stuck on a project.</p>
     </div>
-  </div>
+    
+    <!-- *** PORTFOLIO PIECES *** -->
+    <div class="content">
+
+      <!-- *** MIRAGE APP *** -->
+      <div class="img-box">
+        <img class="site-img" src="/images/mirage_app/mirage-artist.png" alt="MirageApp">
+        <img src="/images/mirage_app/mirage-signup-far.png" alt="MirageApp Signin" class="site-img">
+        
+        <p class="app-explanation">Mirage: App for a local 3D Home Image company. Shows sample pieces, artist portfolios, and allows clients to submit requests to the admin. ActiveAdmin used for storing request, and aiding business owners in making changes at their dicretion.</p>
+
+        <%= link_to '<i class="fa fa-bitbucket" aria-hidden="true"></i>'.html_safe, "https://bitbucket.org/Kr1sta/", { style: "color:white", target: :_blank} %>
+        <%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, "https://github.com/Kr1sta", { style: "color:white;margin:10px", target: :_blank} %>
+      </div>
+
+      <!-- *** PICVOTE APP *** -->
+      <div class="img-box">
+        <img class="site-img" src="/images/mirage_app/mirage-artist.png" alt="MirageApp">
+        <img src="/images/mirage_app/mirage-signup-far.png" alt="MirageApp Signin" class="site-img">
+        <br>
+        <%= link_to '<i class="fa fa-bitbucket" aria-hidden="true"></i>'.html_safe, "https://bitbucket.org/Kr1sta/", { style: "color:white", target: :_blank} %>
+        <%= link_to '<i class="fa fa-github-alt" aria-hidden="true"></i>'.html_safe, "https://github.com/Kr1sta", { style: "color:white;margin:10px", target: :_blank} %>
+      </div>
+    </div>
 
   </div>
 
