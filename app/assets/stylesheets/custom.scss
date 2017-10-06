@@ -1,14 +1,17 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-/* mixins, variables, etc */
+/* MIXINS, VARIABLES, ETC */
+
 $sea: #3FB7A8;
 $sea-opaque: #8CCEC6;
 $sea-dark: #69B3AB;
-$slate: #474747;
 
-$pink: #E88BBB;
+$orange: #F18327;
+$pink: #D869A3;
 $pink-opaque: #EFA3CA;
+
+/* GLOBAL */
 
 body {
   background: image-url('brickwall.png');
@@ -19,18 +22,21 @@ body {
   margin: 0px auto;
 }
 
+/* INTRODUCTION */
+
 .name {
   background-color: $sea;
-  opacity: 0.55;
+  opacity: 0.60;
   height: 250px;
   width: 85%;
   color: #fff;
   text-align: center;
-  margin: 0px auto;
+  margin: 35px auto;
   h1 {
     padding-top: 75px;
     font-size: 50px;
     margin-bottom: 10px;
+    margin-top: 0px;
   }
   p {
     margin-top: 0px;
@@ -38,40 +44,44 @@ body {
   }
 }
 
+/*  ABOUT ME */
+
 .aboutMe {
-  min-height: 50px;
   margin: 15px auto;
   text-align: center;
+  background-color: $orange;
   opacity: 0.55;
-  background-color: $pink;
   width: 85%;
   color: #fff;
   font-size: 18px;
-  font-family: sans-serif;
   p {
     margin: 0px;
-    padding: 15px;
+    padding: 30px 100px;
+    font-family: sans-serif;
+    font-weight: 100;
   }
 }
+
+/* PORTFOLIO PIECES */
 
 .content {
   background-color: $sea-opaque;
   opacity: 0.95;
   width: 85%;
-  margin: 15px auto;
+  margin: 15px auto 35px;
   text-align: center;
   overflow: auto;
 }
 
 .img-box {
   width: 95%;
-  margin: 10px auto;
-  padding: 5px;
+  margin: 15px auto;
+  padding: 10px;
   border-radius: 5px;
   background-color: $sea-dark;
 }
 
-.site-img {
+.app-img {
   width: 45%;
   height: 100px;
   margin: 5px auto;
@@ -79,4 +89,11 @@ body {
   display: inline-block;
 }
 
+.app-explanation {
+  width: 80%;
+  margin: 10px auto;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 100;
+}
 
